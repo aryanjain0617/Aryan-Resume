@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aryan Jain Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #e5e7eb;
+            padding: 40px;
+        }
+
+        /* MAIN CONTAINER */
+        .resume {
+            width: 850px;
+            background: #fff;
+            margin: auto;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* HEADER */
+        .header {
+            display: grid;
+            grid-template-columns: 45% 55%;
+        }
+
+        .header-left {
+            background: #3a3a3a;
+            color: #fff;
+            padding: 30px;
+        }
+
+        .header-left h1 {
+            font-size: 28px;
+            line-height: 1.2;
+        }
+
+        .header-right {
+            background: #0b7c86;
+            color: #fff;
+            padding: 30px;
+        }
+
+        .header-right p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        /* BODY */
+        .body {
+            display: grid;
+            grid-template-columns: 45% 55%;
+        }
+
+        /* LEFT COLUMN */
+        .left {
+            padding: 25px;
+        }
+
+        .section-title {
+            background: #0b7c86;
+            color: #fff;
+            font-size: 13px;
+            padding: 6px 10px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .text {
+            font-size: 13px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .job {
+            margin-bottom: 15px;
+        }
+
+        .job h3 {
+            font-size: 14px;
+            color: #111;
+        }
+
+        .job span {
+            font-size: 12px;
+            color: #555;
+        }
+
+        .job p {
+            font-size: 13px;
+            margin-top: 6px;
+            line-height: 1.6;
+        }
+
+        /* RIGHT COLUMN */
+        .right {
+            padding: 25px;
+            border-left: 1px solid #ddd;
+        }
+
+        .section-dark {
+            background: #3a3a3a;
+            color: #fff;
+            font-size: 13px;
+            padding: 6px 10px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .contact p,
+        .skills li,
+        .edu p {
+            font-size: 13px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .skills ul {
+            padding-left: 15px;
+        }
+
+        .skills li {
+            margin-bottom: 6px;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width:900px) {
+            .resume {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header-left">
+                <h1>ARYAN<br>JAIN</h1>
+            </div>
+            <div class="header-right">
+                <p>Finance Quant Engineer</p>
+                <p>Developer</p>
+            </div>
+        </div>
+
+        <!-- BODY -->
+        <div class="body">
+
+            <!-- LEFT -->
+            <div class="left">
+                <div class="section-title">Profile</div>
+                <div class="text">
+                    Enthusiastic and creative professional with a passion for finance,
+                    technology, and development. Experienced in designing and building
+                    impactful digital and analytical solutions.
+                </div>
+
+                <div class="section-title">Experience</div>
+
+                <div class="job">
+                    <h3>Purple Commerce Pvt</h3>
+                    <span>2020 – 2025</span>
+                    <p>
+                        Worked as a web design intern and created multiple web designs
+                        alongside senior designers while handling real-world challenges.
+                    </p>
+                </div>
+
+                <div class="job">
+                    <h3>Shraman Properties Pvt</h3>
+                    <span>2025 – 2030</span>
+                    <p>
+                        Developed an AI Real Estate ERP system for property operations.
+                    </p>
+                </div>
+
+                <div class="job">
+                    <h3>Bothra Enterprises Pvt</h3>
+                    <span>2030 – 2035</span>
+                    <p>
+                        Worked in finance and developed algorithmic trading strategies
+                        for futures and options, along with a fundamental analysis tool.
+                    </p>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="right">
+                <div class="section-dark">Contact</div>
+                <div class="contact">
+                    <p>📞 9810070247</p>
+                    <p>✉️ aryanjain0617@gmail.com</p>
+                    <p>🌐 file:///C:/Users/skssu/Desktop/Aryan%20CV%20Project/index.html</p>
+                </div>
+
+                <br>
+
+                <div class="section-dark">Skills</div>
+                <div class="skills">
+                    <ul>
+                        <li>Technical Stock Analyst</li>
+                        <li>Fundamental Stock Analyst</li>
+                        <li>Stock Option Analyst</li>
+                        <li>Frontend Developer (HTML, CSS, JS)</li>
+                        <li>Backend Developer (Python)</li>
+                        <li>Swimming</li>
+                        <li>Cycling</li>
+                    </ul>
+                </div>
+
+                <br>
+
+                <div class="section-dark">Education</div>
+                <div class="edu">
+                    <p><strong>Zerodha Varsity</strong><br>2020 – 2024<br>
+                        Technical, Option & Fundamental Analysis</p>
+
+                    <br>
+
+                    <p><strong>Udemy</strong><br>2024 – 2029<br>
+                        Frontend and Backend Development</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
